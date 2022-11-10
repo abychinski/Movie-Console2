@@ -12,7 +12,7 @@ namespace MovieLibraryEntities.Context
         public DbSet<Occupation> Occupations { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<UserMovie> UserMovies { get; set; }
-
+        //nbjbhkh
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             IConfigurationRoot configuration = new ConfigurationBuilder()
